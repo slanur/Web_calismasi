@@ -1,0 +1,5 @@
+* Telefon, Tablet ve Masaüstü için belirli pixel değerleri
+
+Masaüstü: max 1024px
+Tablet: max 768px
+Telefon: max 480px

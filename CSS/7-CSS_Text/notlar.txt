@@ -1,0 +1,32 @@
+*font-size: yazının büyüklüğü
+*font-weight: yazının kalınlığı
+*font-style: yazının görünümü
+
+*text align -> bulunduğu html etiketi içindeki yazıyı ortalamaya yarıyor
+
+*letter spacing -> karakterlerin arasındaki boşluğu ayarlamaya yarıyor
+*word spacing -> kelimelerin arasındaki boşluğu ayarlamaya yarıyor
+
+*line height-> bir paragrafta satırlar arasındaki boşluğu ayarlamaya yarıyor
+
+
+*google fonts'dan farklı fon çeşitlerine bakabiliriz
+*burada beğendiğimiz fontun kodlarını hem html dosyamıza(head kısmına) hemde css dosyamıza yazarak kullanabiliriz
+
+*text transforms-> yazının tüm harflerini küçük yapmak, büyük yapmak vs işler için kullanılır
+
+*text decoration -> yazıya dekorlar eklemek(altını,üstünü vs cizmek) için kullanılır 
+
+* list-style etiketi ile liste halinde yazlmış yazıların özelliklerini değiştirebiliriz
+
+* linklere de css yazabiliriz. ayrıca bir linke tıkladıktan sonra o linki tıklanmış olsuğunu belli etmek için de bazı css özellikleri kullanabiliriz
+
+a:visited{
+    color: blue;
+}
+
+linkin üzerine gittiğimizde bazı özelliklerin değişmesini istiyorsak 
+
+a:hover{
+
+} etiketini kullanabiliriz 

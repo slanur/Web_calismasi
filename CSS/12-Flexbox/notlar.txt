@@ -1,0 +1,20 @@
+* kapsayıcı class'a display: flex etiketini giriyoruz
+
+*display: flex; CSS’te bir düzen (layout) yöntemi olarak kullanılır.
+Bu özellik sayesinde, bir kapsayıcı (container) içindeki elemanlar (children), esnek kutu modeli (flexbox) kurallarına göre hizalanır ve düzenlenir.
+
+* dikey olarak hizalamak istediğimizde justifuy-content, dikey olarak hizalamak istediğimizde aligns-items kullanıyoruz
+
+* flex grow ile kutuların kapladıkları yeri değiştirebiliriz
+
+* flex order ile kutuların sıralarını değiştirebiliriz
+
+* align-content ile bu uygulamadaki kutular arasında kalan boşlukları kapatabiliriz
+
+* align self ile her kutuyu kendi başına hizalayabiliriz
+
+* justify content yatayda hizalıyor
+
+* align items dikeyde hizalıyor
+
+* height değerini 100vh dediğimşzde yüksekliği tarayıcımızın yüksekliği olarak alıyor 

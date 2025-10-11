@@ -1,0 +1,4 @@
+* bir yapı vs oluştururken sığmayanların bir alt satıra geçmesini istiyorsak 
+flex-wrap: wrap etiketini kullanabiliriz
+
+* ayrıca flex-wrap: none; default olarak tanımlanır. Bu da taşmayı önler

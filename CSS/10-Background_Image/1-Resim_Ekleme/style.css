@@ -1,0 +1,8 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    color: white;
+    background-image: url('/Users/silanurcandir/Desktop/web-ogrenme/CSS/10-Background_Image/forest.jpg');
+    background-size: contain;
+}

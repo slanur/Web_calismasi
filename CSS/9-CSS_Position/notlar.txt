@@ -1,0 +1,10 @@
+* position: position özelliği, bir HTML elemanının sayfada nasıl konumlanacağını ayarlamak için kullanılır.
+-> static (varsayılan)
+Tüm elemanların varsayılan konumu.
+Normal akışta (belgenin sırasına göre) yerleşir.
+top, left, right, bottom çalışmaz.
+
+->relative
+Eleman, normal konumuna göre yerleşir.
+Sonra top, left, right, bottom ile kaydırabilirsin.
+Ama yer işgal ettiği alan (boşluk) korunur.

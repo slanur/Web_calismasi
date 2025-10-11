@@ -1,0 +1,14 @@
+* resmimizin widht-height değeri resmi yerleştireceğimiz box'ın widht-height değerinden oldukça küçükse resim tekrar etmeye başlar.
+bunu engellemek için 
+background-repeat: no-repeat; diyebiliriz
+
+* background-size: cover;
+Arka plan resmi, elementin tamamını kaplayacak şekilde büyütülür veya küçültülür.
+Eğer resmin oranı kutuya uymuyorsa resmin bazı kısımları kırpılabilir.
+
+*background-size: contain;
+Resim, elementin içine tamamen sığacak şekilde ölçeklenir.
+Eğer kutunun oranı ile resmin oranı farklıysa, boş alanlar kalabilir.
+
+* background-position: ;
+Resimde odaklanmak istediğimiz yere göre seçimler yapabiliriz, veya center diyerek resmi ortalayabiliriz

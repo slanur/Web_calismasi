@@ -1,0 +1,24 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: backgroundChange;
+    animation-duration: 3s;
+
+}
+
+@keyframes backgroundChange {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: aquamarine;
+    }
+
+}

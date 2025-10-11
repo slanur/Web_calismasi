@@ -1,0 +1,19 @@
+* yatayda aralık değerlerini vermek istiyorusak grid-template-column, düşeyde vermek istiyorusak grid-template-row kullanıyoruz
+
+*minmax() ile min ve maximum değeri verebiliriz
+
+*grid-template-columns: 1fr 1fr 1fr 1fr ==== grid-template-columns: repeat(4,1fr)
+bu şelilde row'a da genişlik verebiliriz
+ikisine tek satırda grid-template: (row) / (column)
+
+* kutunun genişliğini içindeki content'e göre ayarlamak istiyorusak fit-content() kullanabiliriz
+
+* satır ve sütunlar arasına boşluk vermek istiyorusak column-gap ve row-gap'i kullanabiliriz
+bunu da tek satır halinde gap: 10px 20px; olarak kullanabiliriz
+
+* div.conteiner kısmından satır ve sütun sayılarını görebiliyoruz. 
+başlamasını istediğimiz yeri grid-column-start: ile başlangıç değerlerini
+grid-column-end: ile de bitiş değerini verebiliriz
+
+*bunları tek satırda da yazabiliriz
+grid-area: (row-start) /(column-start)/(row-end)/(column-end)

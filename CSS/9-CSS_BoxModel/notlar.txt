@@ -1,0 +1,47 @@
+* box model:bir kutu görünümü vermek anlamına gelir
+
+* border: kenarlık vermemizi sağlar
+h1{
+    border: 2px solid red; ->genişlik, stili , rengi
+}
+
+* widght-hight -> content kısmının genişlik ve yüksekliğini ayarlamak için kullanılıyor
+
+* content ile border kısmını ayırmak içi padding kullanılıyor
+h1{
+    padding: 20px; 
+} bu şekilde aşağıdan yukarıdan sağdan soldan 20px padding değeri vermiş olduk. 
+eğer değerleri değiştirmek istiyorsak o zaman sırayla 4 değeride yazmamız gerekiyor
+
+
+* margin: HTML etiketlerini birbirinden ayırmak için kullanılıyor
+---
+*display nedir: bir HTML elemanının sayfa üzerinde nasıl kutu modeliyle yerleşeceğini belirler.
+Temel Değerler
+->display: block; 
+Eleman bir blok kutusu olur.
+Tüm genişliği kaplar, altındaki içerikleri bir alt satıra iter.
+->display: inline;
+Eleman metin satırı içinde akar, sadece içeriği kadar yer kaplar.
+Yükseklik/genişlik verilemez (padding ve margin sınırlı işler).
+->display: inline-block;
+Inline gibi satırda durur, ama block gibi genişlik/yükseklik alabilir.
+Menü elemanları ve buton tasarımlarında çok kullanılır.
+-> bunların daha da ileri değeri olarak flex ve grid var
+--
+*min ve max width: Elemanın genişliği asla bu değerden küçük olamaz.
+max-width: Elemanın genişliği asla bu değerden büyük olamaz.
+div {
+  width: 50%;
+  min-width: 200px;
+  max-width: 600px;
+}
+Ekran daralsa bile kutu 200px’ten daha küçük olmayacak.
+Ekran genişlese bile kutu 600px’ten daha büyük olmayacak.
+Bunlardan responsive için yararlanılıyor
+---
+*border-radius : keskin kenarları yuvarlamak için kullanılıyor. eğer tam yuvarlak bir avatar fotoğrafı falan oluşturmak istiyorsak bunu %50 girmemiz gerekiyor
+
+* border-shadow: gölge vermek için kullanılır
+
+* overflow:oluşturduğumuz kutuya yazdığımız metinleribn taşma sorunlarını ayarlamak için kullanılır 

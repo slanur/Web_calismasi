@@ -1,0 +1,13 @@
+** inline css -> <h1 style="color: red;">Css Online Education</h1> bu şekilde kodun içinde css kodunu kullanmamıza yarar ama bu şekilde kullanmak profesyonel değil
+
+** head etiketi içinde yazmaya ise internal denir.
+
+** başka bir dosya içinde yazmaya ise external denir. bu en iyi olanı
+
+** sadece bir html etiketine css vermek içi id'yi, birden fazla etikete css vermek için class'ı kullanıyoruz
+
+** id -> sadece tek bir elemana css vermek için kullanılır.
+tanımlama örneği: #pageTitle
+
+** birden fazla html etiketine css vermek istersek class'ı kullanacağız
+tanımlama örneği: .brownColor

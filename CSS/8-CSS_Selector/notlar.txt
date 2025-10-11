@@ -1,0 +1,28 @@
+*tüm css etiketlerinde geçerli bir özellik vermek istediğimizde şu şekilde kullanabiliriz
+*{
+
+}
+
+* iki etikete aynı özelliği vereceksek örnek olarak şu şekilde kullanabiliriz
+h1,h2{
+    
+}
+
+* bir etiketin içindeki başka bir etikete css vermek istiyorsak şu şekşlde yazabiliriz
+ul>li{
+
+} bu direkt ul altında bulunan li'lere css verecek
+
+ul li{
+
+} bu da ul altında bulunan tüm li'lere css verecek
+
+* etiket içindeki id'lerle css vermek istersek
+h2#summary{
+
+}
+
+* bir etiketin iiçindeki diğer etiketlere aynı class ismini vermişsek ve o classlara ulaşmak istiyorsak şöyle yazabiliriz
+.hamburger .bar:nth-child(1){
+
+} bu şekilde ilk bar class'ının olduğ etikete ulaşmış olduk

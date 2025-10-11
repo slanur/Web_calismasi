@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 40px;
+}
+
+p {
+    font-style: italic;
+    line-height: 50px;
+}

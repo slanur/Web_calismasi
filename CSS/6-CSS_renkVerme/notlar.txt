@@ -1,0 +1,8 @@
+CSS'te farklı renk verme yöntemleri var.
+1- isimle verme-> direkt olarak rengin adını girerek verebiliriz
+2-RGB(red,green,blue)
+3- hexadecimal olarak renk değerlerini verebiliriz
+
+bunların renk değerlerine geeksforgeeks üzerinden bakabiliriz
+
+inheritence'a izin vermeyen kodlarda inherit kodu ile izin verir hale getirebilirizf

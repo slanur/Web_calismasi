@@ -1,0 +1,7 @@
+* birden fazla transition vermek istersek şu şekilde kullanabiliriz
+transition: color 2s, background-color 2s;
+
+*ya da bir etiketteki tüm özelliklere transition vermek istersek 
+transition: all;
+
+* kayan bir buton yapmak için tarnsform kullanılıyor. bunun kaç saniyede kayacağını vs ayarlamak için  transition-time kullanılıyor. 
