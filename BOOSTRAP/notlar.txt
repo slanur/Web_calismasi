@@ -1,0 +1,8 @@
+* inline diyerek daha önce verdiğimiz width ve height değerlerini set edebiliyoruz
+
+* hizalamak istediğimiz html etiketlerini(özellikle yatayda) display flex ile hizalayabilriiz
+
+*flex-wrap responsive özellşk katmak için kullanılıyor
+
+*bir divin içinde başka bir divi konumlandırmak istersek position-relative ve position-absolute'u kullanabiliriz.
+kapsayıcıya position-relative, içtekine  position-absolute diyoruz
