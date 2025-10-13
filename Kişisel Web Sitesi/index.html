@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Sılanur Çandır</title>
+    <style>
+        .nav-link.active {
+            color: red !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sılanur Çandır</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">İletişim</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-vh-100 d-flex flex-column justify-content-end align-items-center"
+        style="background-image:url('img/backGround.jpeg'); background-size: cover;">
+        <div class="text-light text-center">
+            <p class="display-3">Sılanur Çandır</p>
+            <h6 class="fs-3 mb-4">Bilgisayar Mühendisi</h6>
+
+        </div>
+        <a class="btn btn-danger raunded-pill mb-2" href="#about">Hakkımda</a>
+    </section>
+
+    <section id="about" class="container py-5">
+        <div class="text-center py-5">
+            <h2 class="fw-bolder">HAKKIMDA</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-fluid" src="/Users/silanurcandir/Desktop/web-ogrenme/Website/img/background2.png">
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+                <p class="lh-lg">
+                    Kocaeli Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisiyim.
+                    Üniversitemizin teknoloji takımı KOU STORM’da yazılım ekibi üyesi olarak
+                    otonom sistemler üzerine çalışmaktayım. C ve Python dillerine hakimim,
+                    takım çalışmasına yatkın, öğrenmeye istekliyim. Akademik ortalamam
+                    3.26’dır.</p>
+                <h3 class="fw-bold fs-4">Yetenekler:</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>ROS</li>
+                    <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                    <li> İşletim Sistemleri: Linux (Ubuntu), MACOS</li>
+                    <li>İngilizce – Orta Seviye (B1)</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="bg-dark py-5">
+        <div class="container">
+            <div class="text-white text-center py-5">
+                <h2 class="fw-bolder">İLETİŞİM</h2>
+            </div>
+
+            <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+                <form class="text-white">
+                    <div class="mb-3">
+                        <label class="form-label">Ad Soyad</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Konu</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ad Soyad</label>
+                        <textarea type="text" class="form-control" rows="10"></textarea>
+                    </div>
+                    <button style="background-color: #ff3d00" class="btn btn-lg text-white">
+                        Gönder
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
