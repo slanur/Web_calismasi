@@ -1,0 +1,2 @@
+Bu kodları html sayfasında açtığımızda sunucuda açmış oluyoruz. 
+Terminalden açmak istersek, kodları yazdığımız dosya dizinine gidip node dosyaAdi komutu ile terminalden kodu çalıştırabiliriz

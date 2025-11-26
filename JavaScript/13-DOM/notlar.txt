@@ -1,0 +1,2 @@
+Dom-> javascripti html içerisinde kullanmaızı sağlıyor
+HTML i javascriptin çalışabileceği forma dönüştürüyor

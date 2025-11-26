@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--! Tailwind css cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>DOM uygulama</title>
+</head>
+
+<body>
+    <h1 class="text-5xl my-10 text-center">TODO LİST</h1>
+
+    <div class="container mx-auto w-1/2">
+        <form>
+            <div class="border flex">
+                <input type="text" placeholder="Bir şeyler yazınız..." class="w-full p-3 relative z-90" id="todos">
+                <button type="submit" class="border-1 px-6 bg-green-500">Ekle</button>
+            </div>
+        </form>
+
+        <div class="flex justify-end my-5">
+            <button class="p-3 bg-red-500 text-white">Temizle</button>
+        </div>
+
+        <ul class="border p-6 flex-col gap-y-4">
+            <li class="flex justify-between border px-4 py-3 flex items-center justify-between">
+                <span>Todo Name</span>
+                <button class="text-red-400">Sil</button>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const textInputDOM = document.getElementById("todos");
+        console.log(textInputDOM);
+
+    </script>
+
+
+
+</body>
+
+</html>

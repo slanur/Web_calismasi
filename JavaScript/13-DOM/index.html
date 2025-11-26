@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+
+<body>
+    <h1 class="title">Javascript DOM</h1>
+    <h1 class="title" id="title">Javascript DOM</h1>
+    <h1 class="title">Javascript DOM</h1>
+    <h1 class="title">Javascript DOM</h1>
+    <h1 class="title">Javascript DOM</h1>
+
+    <h1 class="liste1">liste 1</h1>
+    <ul class="list">
+        <li class="list-item">Sıla</li>
+        <li class="list-item">Esma</li>
+        <li class="list-item">Hakan</li>
+        <li class="list-item">Zeynep</li>
+    </ul>
+    <h1 class="liste2">liste 2</h1>
+    <ul class="list">
+        <li class="list-item">Sıla</li>
+        <li class="list-item">Esma</li>
+        <li class="list-item">Hakan</li>
+        <li class="list-item">Zeynep</li>
+    </ul>
+
+
+    <script>
+        //! Tekli seçiciler
+        const title = document.querySelector("h1"); // bu ilk gördüğü title'i alır, ayrıca tekli seçicidir
+        title.style.color = "red";
+        title.innerHTML = "<button>click</button>"; // HTML etiketi eklemek için kullanılır
+
+        const title2 = document.getElementById("title"); // bu da tekli seçicidir. id ye göre alır
+        title2.style.color = "blue";
+
+        const title3 = document.querySelector("h1:nth-child(3)").style.color = "red"; //3. ye ulaşmak için 
+
+        //! Çoklu seçiciler
+
+        const listItems = document.getElementsByClassName("list-item");
+        //const listItems2 = document.querySelectorAll(".list-item");
+        //const listItems3= document.getElementsByTagName("li");
+        const list1 = document.querySelectorAll(".list1");
+        const listItems4 = list1.getElementsByTagName("li");
+
+        const listItems5 = document.querySelectorAll(".list1 li");
+
+
+        // for (let i = 0; i < listItem.length; i++) {
+        //     listItem[i].style.color = "red";
+        // }
+
+        for (let list of listItem) {
+            list.style.color = "blue";
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
